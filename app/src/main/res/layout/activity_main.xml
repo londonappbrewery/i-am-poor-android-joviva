@@ -11,19 +11,17 @@
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title"
         android:textColor="#ffffff"
         android:layout_marginTop="46dp"
-        android:textSize="26sp"
-        android:gravity="center_horizontal"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
     />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/coal"
           android:layout_centerVertical="true"/>
-
-
 </RelativeLayout>
